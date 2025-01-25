@@ -21,26 +21,34 @@
     </style>
   </head>
   <body class="roboto-font">
+
     <header class="bg-[#FFFBF0]">
       <nav class="flex justify-between items-center py-4 w-11/12 mx-auto">
         <div>
           <img class="w-72" src="icons/logo.png" alt="" />
         </div>
         <ul class="lg:flex hidden gap-6">
-          <li class=""><a href="#">Home</a></li>
-          <li class=""><a href="#">Product</a></li>
-          <li class=""><a href="#">About us</a></li>
-          <li class=""><a href="#">Contact us</a></li>
+          <li class="text-base font-medium"><a href="#">Home</a></li>
+          <li class="text-base font-medium"><a href="#">Product</a></li>
+          <li class="text-base font-medium"><a href="#">About us</a></li>
+          <li class="text-base font-medium"><a href="#">Contact us</a></li>
         </ul>
+        <div class="navigate-icon hidden ">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+          
+        </div>
       </nav>
+
+
 
       <section
         class="banner w-11/12 mx-auto lg:flex items-center justify-between py-5"
       >
         <div class="banner-content">
           <h2 class="lg:text-7xl text-6xl bebas-neue-font">
-            <span class="text-[#FABE4C]">Be the Penguins</span> <br />
-            of Winter
+            <span class="text-[#FABE4C]">Be the Penguins</span> <br/> <span class="text-[#363958]">of Winter</span> 
           </h2>
           <p class="my-3">
             Lorem Ipsum is simply dummy text of the printing <br />
@@ -73,9 +81,9 @@
     </header>
 
     <main class="w-11/12 mx-auto">
-      <section class="product">
+      <section class="product py-16">
         <!-- Women section -->
-        <h2>Woman Jacket</h2>
+        <h2 class="text-5xl bebas-neue-font font-bold mt-12 mb-5">Woman Jacket</h2>
         <div
           class="prouct-container grid gap-4 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 m-4"
         >
@@ -84,12 +92,12 @@
             <div class="bg-[#F1F1F1] rounded-md p-2">
               <img src="images/jacket-1.png" alt="" />
             </div>
-            <h2 class="text-black text-2xl font-bold">Yellow Coat Jacket</h2>
+            <h2 class="text-black text-2xl font-semibold my-3"">Yellow Coat Jacket</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mt-3">
               <p class="text-3xl font-bold text-[#FABE4C]">$234</p>
               <button
                 class="px-8 py-4 text-white bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md font-medium"
@@ -116,14 +124,14 @@
           <!-- Card 2 -->
           <div class="product-card p-5 rounded-xl bg-white drop-shadow-xl">
             <div class="bg-[#F1F1F1] rounded-md p-2">
-              <img src="images/jacket-1.png" alt="" />
+              <img src="images/jacket-2.png" alt="" />
             </div>
-            <h2 class="text-black text-2xl font-bold">Yellow Coat Jacket</h2>
+            <h2 class="text-black text-2xl font-bold my-3"">Ladies Jacket </h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mt-3">
               <p class="text-3xl font-bold text-[#FABE4C]">$234</p>
               <button
                 class="px-8 py-4 text-white bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md font-medium"
@@ -150,14 +158,14 @@
           <!-- Card 3 -->
           <div class="product-card p-5 rounded-xl bg-white drop-shadow-xl">
             <div class="bg-[#F1F1F1] rounded-md p-2">
-              <img src="images/jacket-1.png" alt="" />
+              <img src="images/jacket-3.png" alt="" />
             </div>
-            <h2 class="text-black text-2xl font-bold">Yellow Coat Jacket</h2>
+            <h2 class="text-black text-2xl font-bold my-3">Woman Leather Jacket </h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mt-3">
               <p class="text-3xl font-bold text-[#FABE4C]">$234</p>
               <button
                 class="px-8 py-4 text-white bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md font-medium"
@@ -183,21 +191,21 @@
         </div>
 
         <!-- Men section -->
-        <h2>Men Jacket</h2>
+        <h2 class="text-5xl bebas-neue-font mt-12 mb-5">Men Jacket</h2>
         <div
           class="prouct-container grid gap-4 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 m-4"
         >
           <!-- Card 1 -->
           <div class="product-card p-5 rounded-xl bg-white drop-shadow-xl">
             <div class="bg-[#F1F1F1] rounded-md p-2">
-              <img src="images/jacket-1.png" alt="" />
+              <img src="images/jacket-4.png" alt="" />
             </div>
-            <h2 class="text-black text-2xl font-bold">Yellow Coat Jacket</h2>
+            <h2 class="text-black text-2xl font-semibold my-3">Snowboard Jacket Mens</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mt-3">
               <p class="text-3xl font-bold text-[#FABE4C]">$234</p>
               <button
                 class="px-8 py-4 text-white bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md font-medium"
@@ -224,14 +232,14 @@
           <!-- Card 2 -->
           <div class="product-card p-5 rounded-xl bg-white drop-shadow-xl">
             <div class="bg-[#F1F1F1] rounded-md p-2">
-              <img src="images/jacket-1.png" alt="" />
+              <img src="images/jacket-5.png" alt="" />
             </div>
-            <h2 class="text-black text-2xl font-bold">Yellow Coat Jacket</h2>
+            <h2 class="text-black text-2xl font-bold my-3">Man Leather Jackets</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mt-3">
               <p class="text-3xl font-bold text-[#FABE4C]">$234</p>
               <button
                 class="px-8 py-4 text-white bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md font-medium"
@@ -258,14 +266,14 @@
           <!-- Card 3 -->
           <div class="product-card p-5 rounded-xl bg-white drop-shadow-xl">
             <div class="bg-[#F1F1F1] rounded-md p-2">
-              <img src="images/jacket-1.png" alt="" />
+              <img src="images/jacket-6.png" alt="" />
             </div>
-            <h2 class="text-black text-2xl font-bold">Yellow Coat Jacket</h2>
+            <h2 class="text-black text-2xl font-bold my-3">Man Casual Jackets</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center mt-3">
               <p class="text-3xl font-bold text-[#FABE4C]">$234</p>
               <button
                 class="px-8 py-4 text-white bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md font-medium"
@@ -288,6 +296,41 @@
               </button>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="last-section lg:flex lg:flex-row lg:gap-20  flex gap-12 flex-col-reverse items-center  py-16">
+
+        <div class="last-content flex gap-2 flex-col flex-1">
+
+          <div class="last-card flex m-3 items-center p-5 shadow-lg rounded-lg">
+            <img class="w-24" src="icons/house.png" alt="">
+            <div class="ml-8">
+              <h2 class="text-2xl font-bold mb-5">Find the Perfect Fit</h2>
+              <p>Everybody is different, which is why we
+                offer styles for every body.</p>
+            </div>
+
+          </div>
+          <div class="last-card flex m-3 items-center shadow-lg p-5 rounded-lg">
+            <img class="w-24" src="icons/box.png" alt="">
+            <div class="ml-8">
+              <h2 class="text-2xl font-bold mb-5">Free Exchanges</h2>
+              <p>One of the many reasons you can shop
+                with peace of mind.</p>
+            </div>
+          </div>
+          <div class="last-card flex m-3 items-center shadow-lg p-5 rounded-lg">
+            <img class="w-24" src="icons/question.png" alt="">
+            <div class="ml-8">
+              <h2 class="text-2xl font-bold mb-5">Contact Our Seller</h2>
+              <p>They are here to help you. That's quite 
+                literally what we pay them for.</p>
+            </div>
+          </div>
+        </div>
+        <div class="last-img items-center flex-1">
+          <img src="images/shopping.png" alt="">
         </div>
       </section>
     </main>
